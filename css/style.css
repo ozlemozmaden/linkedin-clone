@@ -1,0 +1,243 @@
+.body {
+  background-color: #f3f2ef;
+}
+
+/* NAVBAR */
+.navbarbg {
+  height: 55px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  margin-top: 0px;
+  padding-top: 1rem;
+  margin-right: auto;
+  min-height: 100%;
+}
+
+.navbar-collapse {
+  margin-left: 96px;
+}
+
+input.searche {
+  height: 34px;
+  max-width: 500px;
+  background-color: rgb(238, 243, 248);
+  border: 0;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color:grey;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+  background-size: 7%;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+i:hover {
+  color: black;
+}
+
+
+/* SAĞ PANEL */
+.col-2.py-3 {
+  max-width: 24.67%;
+}
+
+.card.mt-2 {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.card-header {
+  margin-bottom: -22px; 
+  font-size: 18px;
+}
+
+#head-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  margin: 48px;
+}
+
+.card-body.card-margin {
+  margin-top: 59px;
+}
+
+#personal-header {
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+  height: 56px;
+}
+
+#personal-pic {
+  margin: 14px 1.2rem;
+  margin-left: 64px;
+  border: 3px solid;
+  border-color: white;
+  height: 85px; 
+}
+
+.fas.fa-hashtag {
+  font-size: 13px; 
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.card-title.hashtag {
+  margin-top: -22px;
+}
+
+/* ORTA PANEL */
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.form-control.content::placeholder {
+  padding-left: 29px;
+  background-size: 20px;
+  background-position: 2px;
+}
+
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+  margin-left: 15px;
+  }
+
+  #pic-svg {
+    fill: #70b5f9;
+  }
+
+#video-svg {
+  fill:#7FC15E;
+}
+
+#cal-svg {
+  fill:  #E7A33E;
+}
+
+#write-svg {
+  fill: #F5987E;
+}
+
+.post-it.py-3 {
+  padding-bottom: 0rem!important;
+ 
+}
+
+
+
+/*Akıs */
+
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+
+#like {
+margin-left: 14px;
+}
+
+#number {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+
+
+.right-panel-pic.rounded-circle {
+  width: 67px;
+}
+
+
+
+
+
+
+
+
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: white;
+}
+
+button.ref:hover {
+  color: #5f5f5f;
+}
+
+
